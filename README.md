@@ -1,16 +1,17 @@
 # Kraken Node
 
-[![Build Status](https://travis-ci.com/restuwahyu13/graphql-typedefs-loader.svg?branch=main)](https://travis-ci.com/restuwahyu13/graphql-typedefs-loader) [![Coverage Status](https://coveralls.io/repos/github/restuwahyu13/graphql-typedefs-loader/badge.svg?branch=main)](https://coveralls.io/github/restuwahyu13/graphql-typedefs-loader?branch=main) [![codebeat badge](https://codebeat.co/badges/857cbfb1-53a4-41e5-a9a0-38152987a7d4)](https://codebeat.co/projects/github-com-restuwahyu13-graphql-typedefs-loader-main) [![CodeFactor](https://www.codefactor.io/repository/github/restuwahyu13/graphql-typedefs-loader/badge)](https://www.codefactor.io/repository/github/restuwahyu13/graphql-typedefs-loader) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d368f0998e7641c4a85a796e7dae3f6a)](https://www.codacy.com/gh/restuwahyu13/graphql-typedefs-loader/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=restuwahyu13/graphql-typedefs-loader&amp;utm_campaign=Badge_Grade) ![node-current](https://img.shields.io/node/v/gtl-node?style=flat-square) ![npm](https://img.shields.io/npm/dm/gtl-node) ![npm bundle size](https://img.shields.io/bundlephobia/min/gtl-node?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/gtl-node?style=flat-square) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/restuwahyu13/graphql-typedefs-loader)
+[![Build Status](https://travis-ci.com/restuwahyu13/graphql-typedefs-loader.svg?branch=main)](https://travis-ci.com/restuwahyu13/graphql-typedefs-loader) [![Coverage Status](https://coveralls.io/repos/github/restuwahyu13/kraken-node/badge.svg?branch=main)](https://coveralls.io/github/restuwahyu13/kraken-node?branch=main) [![codebeat badge](https://codebeat.co/badges/2a94b9f3-f82c-45c3-9f8e-fb4b13d44812)](https://codebeat.co/projects/github-com-restuwahyu13-kraken-node-main) [![CodeFactor](https://www.codefactor.io/repository/github/restuwahyu13/kraken-node/badge)](https://www.codefactor.io/repository/github/restuwahyu13/kraken-node) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/dc11d2a4ebeb447f9fb67fc8d0479dab)](https://www.codacy.com/gh/restuwahyu13/kraken-node/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=restuwahyu13/kraken-node&amp;utm_campaign=Badge_Grade) ![node-current](https://img.shields.io/node/v/gtl-node?style=flat-square) ![npm](https://img.shields.io/npm/dm/gtl-node) ![npm bundle size](https://img.shields.io/bundlephobia/min/gtl-node?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/gtl-node?style=flat-square) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/restuwahyu13/graphql-typedefs-loader)
 
 **kinode** is dependency injection to register module to global access, you can load each given module from **kraken.config.json**, without the need to load module using `require` or `import` again in every file, then module can be accessed as a global with very easy and then only register modules to kraken config, which you often the most used in each every file, example module like `axios`, `lodash`, `moment` etc.
 
-- [Installation](#installation)
-- [Config](#config)
-- [Example Usage](#example-usage)
-- [Testing](#testing)
-- [Bugs](#bugs)
-- [Contributing](#contributing)
-- [License](#license)
+- [Kraken Node](#kraken-node)
+  - [Installation](#installation)
+  - [Config](#config)
+  - [Example Usage](#example-usage)
+  - [Testing](#testing)
+  - [Bugs](#bugs)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Installation
 
