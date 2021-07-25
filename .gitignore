@@ -1,0 +1,7 @@
+node_modules
+coverage
+app
+dist
+esm
+config
+kraken.config.json
