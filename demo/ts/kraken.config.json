@@ -1,0 +1,12 @@
+{
+	"packages": [
+		{
+			"name": "$axios",
+			"module": "axios"
+		},
+		{
+			"name": "$_",
+			"module": "lodash"
+		}
+	]
+}
