@@ -1,5 +1,5 @@
 /**
- * KrakenInjection Injection
+ * Kraken Node
  * @author Copyright(c) 2021 by Restu wahyu saputra
  * MIT Licensed
  */
@@ -13,7 +13,7 @@ import { validatorCheck, configValidator, allConfigValidator } from '../utils/va
 import { mergeProperty } from '../utils/mergeProperty'
 import { OptionConfig } from '../types'
 
-class KrakenInjection {
+class KrakenNode {
 	private configs: any = {}
 	private module: any[] = []
 	private input: any[] = []
@@ -61,7 +61,7 @@ class KrakenInjection {
 	}
 }
 
-function krakenInjection(options: any): void {
+function krakenNode(options: any): void {
 	let module: Record<string, any>[] = []
 	let input: Record<string, any>[] = []
 
@@ -69,7 +69,7 @@ function krakenInjection(options: any): void {
 		module.push(v.module)
 		input.push(v.name)
 	})
-	new KrakenInjection(input, module).registerModule()
+	new KrakenNode(input, module).registerModule()
 }
 
 /**
@@ -101,7 +101,7 @@ export function config(options?: OptionConfig): void {
 		if (isType(isAllConfigValidator) === 'boolean') {
 			let isConfigValidator = configValidator(mergeProperty(parseJson(response)))
 			if (isType(isConfigValidator) === 'boolean') {
-				krakenInjection(mergeProperty(parseJson(response)))
+				krakenNode(mergeProperty(parseJson(response)))
 			}
 		}
 	}

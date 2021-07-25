@@ -1,9 +1,10 @@
-import { isType } from 'is-any-type'
 /**
- * Kraken Injection
+ * Kraken Node
  * @author Copyright(c) 2021 by Restu wahyu saputra
  * MIT Licensed
  */
+
+import { isType } from 'is-any-type'
 
 export const matchProperty = (data: Record<string, any>, compare: Record<string, any>): boolean => {
 	const compareIn: string[] = Object.keys(compare)
