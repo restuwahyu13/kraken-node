@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/restuwahyu13/graphql-typedefs-loader.svg?branch=main)](https://travis-ci.com/restuwahyu13/graphql-typedefs-loader) [![Coverage Status](https://coveralls.io/repos/github/restuwahyu13/graphql-typedefs-loader/badge.svg?branch=main)](https://coveralls.io/github/restuwahyu13/graphql-typedefs-loader?branch=main) [![codebeat badge](https://codebeat.co/badges/857cbfb1-53a4-41e5-a9a0-38152987a7d4)](https://codebeat.co/projects/github-com-restuwahyu13-graphql-typedefs-loader-main) [![CodeFactor](https://www.codefactor.io/repository/github/restuwahyu13/graphql-typedefs-loader/badge)](https://www.codefactor.io/repository/github/restuwahyu13/graphql-typedefs-loader) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d368f0998e7641c4a85a796e7dae3f6a)](https://www.codacy.com/gh/restuwahyu13/graphql-typedefs-loader/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=restuwahyu13/graphql-typedefs-loader&amp;utm_campaign=Badge_Grade) ![node-current](https://img.shields.io/node/v/gtl-node?style=flat-square) ![npm](https://img.shields.io/npm/dm/gtl-node) ![npm bundle size](https://img.shields.io/bundlephobia/min/gtl-node?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/gtl-node?style=flat-square) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/restuwahyu13/graphql-typedefs-loader)
 
-**kinode** is dependency injection to register module to global access, you can load each given module from kraken.config.json, without the need to load module using `require` or `import` again in every file, then module can be accessed as a global with very easy and then only register modules to kraken config, which you often the most used in each every file, example module like `axios`, `lodash`, `moment` etc.
+**kinode** is dependency injection to register module to global access, you can load each given module from **kraken.config.json**, without the need to load module using `require` or `import` again in every file, then module can be accessed as a global with very easy and then only register modules to kraken config, which you often the most used in each every file, example module like `axios`, `lodash`, `moment` etc.
 
 - [Installation](#installation)
 - [Config](#config)
@@ -170,5 +170,5 @@ Want to make **kraken-node** more perfect ? Let's contribute and follow the [con
 - [MIT License](https://github.com/restuwahyu13/kraken-node/blob/main/LICENSE.md)
 
 <p align="right" style="padding: 5px; border-radius: 100%; background-color: red; font-size: 2rem;">
-  <b><a href="#gopack-cli">BACK TO TOP</a></b>
+  <b><a href="#kraken-node">BACK TO TOP</a></b>
 </p>
