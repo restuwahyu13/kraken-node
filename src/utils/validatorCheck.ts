@@ -39,17 +39,18 @@ export const configValidator = (config: Record<string, any>): boolean | Promise<
 		config.packages.forEach((v) => {
 			const patternName = /^[$]+[_a-zA-Z.-]+$/gi
 			const patternModule = /^[a-zA-Z.-]+$/gi
+			const patternInject = /(true|false)/gi
 
 			if (patternName.test(v.name) !== true) {
 				return Promise.reject(new KrakenError('kraken.config.json name must be string and before string include $'))
 			} else if (patternModule.test(v.module) !== true) {
 				return Promise.reject(new KrakenError('kraken.config.json module must be string'))
-			} else if (isType(v.inject) !== 'boolean') {
+			} else if (patternInject.test(v.inject) !== true && isType(v.inject) !== 'boolean') {
 				return Promise.reject(new KrakenError('kraken.config.json inject must be boolean'))
 			}
 		})
-		return true
 	}
+	return true
 }
 
 export const allConfigValidator = (config: Record<string, any>): boolean | Promise<Error> => {
