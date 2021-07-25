@@ -19,3 +19,4 @@ Makefile
 tsconfig.json
 package-lock.json
 kraken.config.json
+demo
