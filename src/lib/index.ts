@@ -8,7 +8,6 @@ import path from 'path'
 import { readFileSync } from 'fs'
 import zlib from 'zlib'
 import { isType } from 'is-any-type'
-import parseJson from 'parse-json'
 import { validatorCheck, configValidator, allConfigValidator } from '../utils/validatorCheck'
 import { mergeProperty } from '../utils/mergeProperty'
 import { OptionConfig } from '../types'
@@ -97,11 +96,11 @@ export function config(options?: OptionConfig): void {
 			response = zlib.brotliDecompressSync(compress, { maxOutputLength: 999999999 }).toString('utf-8')
 		}
 
-		let isAllConfigValidator = allConfigValidator(parseJson(response))
+		let isAllConfigValidator = allConfigValidator(JSON.parse(response))
 		if (isType(isAllConfigValidator) === 'boolean') {
-			let isConfigValidator = configValidator(mergeProperty(parseJson(response)))
+			let isConfigValidator = configValidator(mergeProperty(JSON.parse(response)))
 			if (isType(isConfigValidator) === 'boolean') {
-				krakenNode(mergeProperty(parseJson(response)))
+				krakenNode(mergeProperty(JSON.parse(response)))
 			}
 		}
 	}

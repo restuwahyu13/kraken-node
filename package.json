@@ -1,6 +1,6 @@
 {
 	"name": "kinode",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "kraken-node dependency injection to register module to global access",
 	"main": "./config/lib/index.js",
 	"files": [
@@ -49,15 +49,11 @@
 		"typescript"
 	],
 	"dependencies": {
-		"is-any-type": "0.0.3",
-		"parse-json": "^5.2.0",
-		"resolve": "^1.20.0"
+		"is-any-type": "0.0.3"
 	},
 	"devDependencies": {
 		"@types/jest": "^26.0.20",
 		"@types/node": "^16.0.0",
-		"@types/parse-json": "^4.0.0",
-		"@types/resolve": "^1.20.1",
 		"@typescript-eslint/eslint-plugin": "^4.12.0",
 		"@typescript-eslint/parser": "^4.12.0",
 		"coveralls": "^3.1.0",
