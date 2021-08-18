@@ -1,7 +1,7 @@
 {
 	"name": "kinode",
 	"version": "0.0.2",
-	"description": "kraken-node dependency injection to register module to global access",
+	"description": "kraken-node dependency injection to register module to global access, for nodejs",
 	"main": "./config/lib/index.js",
 	"files": [
 		"/config/**"
